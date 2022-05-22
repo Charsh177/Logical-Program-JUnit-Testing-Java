@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class PerfectNumber
-{
+public class PerfectNumber {
+
     public static void main(String[] args)
     {
         int number, sum =0;
