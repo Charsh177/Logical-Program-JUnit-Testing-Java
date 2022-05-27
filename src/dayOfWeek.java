@@ -15,7 +15,7 @@ public class dayOfWeek {
 
         // TODO auto generated method stub
         // Initializing variable
-    int jan = 0;
+        int jan = 0;
         int d, d0 = 0;
         int m;
         int y;
@@ -34,15 +34,29 @@ public class dayOfWeek {
         d0 = DWeek.dayofWeek(d, y, m);
 
         switch (d0) {
-            case 0 -> System.out.println("Sunday");
-            case 1 -> System.out.println("Monday");
-            case 2 -> System.out.println("Tuesday");
-            case 3 -> System.out.println("Wednesday");
-            case 4 -> System.out.println("Thursday");
-            case 5 -> System.out.println("Friday");
-            case 6 -> System.out.println("Saturday");
+            case 0:
+                System.out.println("Sunday");
+                break;
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
         }
-                sc.close();
+        sc.close();
     }
 
 }
